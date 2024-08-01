@@ -1,0 +1,3581 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* *{
+  color: white;
+  background-color: black;
+} */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#extrenal {
+  color: #fbff00;
+}
+
+.css {
+  text-align: center;
+  font-size: 90px;
+  color: #b90000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*// ------------------------------------------------------------------------- */
+/*!                                  CODE CSS                                  */
+/*//-------------------------------------------------------------------------- */
+
+/*browser stylesheet is responsibl by default */
+
+/*! ====================================== background ====================================== */
+
+/* ===================================== 1 =============================================== */
+
+.background-color {
+  background-color: black;
+  /* default value :::> transparent */
+  /* ----------------------------style-------------------------------- */
+  color: white;
+  /* default value :::> black */
+  height: 55px;
+  width: 200px;
+}
+
+/* ===================================== 2 =============================================== */
+
+.background-image {
+  background-image: url(images/black_ops_4_background_by_thestrangemelon_dcby00s-pre.png);
+  /* ----------------------------style-------------------------------- */
+  color: white;
+  height: 55px;
+  width: 200px;
+}
+
+/* ===================================== 3 =============================================== */
+
+.background-repeat {
+  background-repeat: no-repeat;
+  /* default value :::> repeat */
+  /*                    repeat-x */
+  /*                    repeat-y */
+  /*                    round */
+  /*                    space */
+  /*                    unset */
+  /*                    inherit */
+  /*                    initial */
+  /* ----------------------------style-------------------------------- */
+  background-image: url(images/146255-OTSJ2W-391.jpg);
+  color: white;
+  height: 55px;
+  width: 200px;
+}
+
+/* ===================================== 4 =============================================== */
+.background-attachment {
+  background-attachment: fixed;
+  /* default value :::> scroll */
+  /* ----------------------------style-------------------------------- */
+  background-image: url(images/1920x1080_wallpaper_desktop_by_siulzz_dcp85ru-350t.jpg);
+  color: white;
+  height: 55px;
+  width: 200px;
+}
+
+/* ===================================== 5 =============================================== */
+.background-position {
+  background-position: -164px -103px;
+  /*                ::>  X       ::>  Y            */
+  /*                ::> -X       ::> -Y            */
+  /*                ::> left     ::> right         */
+  /*                ::> center   ::> top           */
+  /*                ::> bottom   ::> bottom        */
+  /* ----------------------------style-------------------------------- */
+  background-image: url(images/146255-OTSJ2W-391.jpg);
+  color: white;
+  height: 55px;
+  width: 200px;
+}
+
+/*! ====================================== width & height ====================================== */
+
+.one {
+  width: 500px;
+  height: 100px;
+  /* ----------------------------style-------------------------------- */
+  background-color: green;
+  color: white;
+}
+
+.two {
+  width: 300px;
+  height: 100px;
+  /* ----------------------------style-------------------------------- */
+  background-color: red;
+  color: white;
+}
+
+.three {
+  width: fit-content;
+  /* ----------------------------style-------------------------------- */
+  background-color: #0051ff;
+  color: white;
+}
+
+/* --------------------------- min-width & max-width --------------------------- */
+
+/*                                      WIDTH      
+                                                                                                                                                       */
+/* ===================================== 1 =============================================== */
+/* ++++++++++++++++++++MIN-WIDTH                                                                                        */
+.one-1 {
+  width: 500px;
+  /* ++++++++++++ start ++++++++++++++ */
+  min-width: 700px;
+  max-width: 500px;
+  /* ++++++++++++ End ++++++++++++++ */
+  /* ----------------------------style-------------------------------- */
+  height: 100px;
+  background-color: blue;
+  color: white;
+}
+
+/* ===================================== 2 =============================================== */
+/* ++++++++++++++++++++MAX-WIDTH                                                                                        */
+
+.two-2 {
+  width: 300px;
+  /* ++++++++++++ start ++++++++++++++ */
+  max-width: 100px;
+  min-width: 0px;
+  /* ++++++++++++ End ++++++++++++++ */
+  /* ----------------------------style-------------------------------- */
+  height: 100px;
+  background-color: orange;
+}
+
+/*                                     HEIGHT  
+                                                                                                                                    */
+/* ===================================== 3 =============================================== */
+/* ++++++++++++++++++++MIN-HEIGHT                                                                                        */
+.one-x {
+  height: 100px;
+  /* ++++++++++++ start ++++++++++++++ */
+  min-height: 300px;
+  max-height: 100px;
+  /* ++++++++++++ End ++++++++++++++ */
+  /* ----------------------------style-------------------------------- */
+  width: 500px;
+  background-color: blue;
+  color: white;
+}
+
+/* ===================================== 4 =============================================== */
+/* ++++++++++++++++++++MAX-HEIGHT                                                                                        */
+
+.two-y {
+  height: 100px;
+  /* ++++++++++++ start ++++++++++++++ */
+  max-height: 30px;
+  min-height: 0px;
+  /* ++++++++++++ End ++++++++++++++ */
+  /* ----------------------------style-------------------------------- */
+  width: 300px;
+  background-color: orange;
+}
+
+/*! ============================== margin & padding & border & outline ============================== */
+
+/*                                     margin  
+                                                                                                                                    */
+.margin-1 {
+  margin: 20px;
+  /* ----------------------------style-------------------------------- */
+  background-color: #ddaf97;
+  width: 100px;
+  height: 100px;
+}
+
+.margin-2 {
+  margin: 40px 0px -20px 20px;
+  /*                                                     
+          >top> right> bottom> left   
+                                                                                                                         */
+  /* ----------------------------style-------------------------------- */
+  background-color: #ddaf97;
+  width: 200px;
+  height: 100px;
+}
+
+.margin_left-right {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  /* ----------------------------style-------------------------------- */
+  margin-top: 50px;
+  background-color: #48ec5e;
+  height: 100px;
+}
+
+/*                                     PADDING  
+                                                                                                                                    */
+.padding-1 {
+  padding: 20px;
+  /* ----------------------------style-------------------------------- */
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.padding-2 {
+  padding: 40px 0px 20px 20px;
+  /*                                                     
+          >top> right> bottom> left                                                                                                        */
+  /* ----------------------------style-------------------------------- */
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+/*                                     BORDER  
+                                                                                                                                    */
+.border {
+  border: 4px solid green;
+  /* ----------------------------style-------------------------------- */
+  padding: 50px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+/* ++++++++++++++++++++BORDER-TOP                                                                                        */
+.border-top {
+  border-top: 8px solid blueviolet;
+  /* ----------------------------style-------------------------------- */
+  padding: 50px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+/*                                     OUTLINE  
+                                                                                                                                    */
+.outline {
+  outline: 8px solid #f50eff;
+  /* ----------------------------style-------------------------------- */
+  border: 4px solid green;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+/*! ============================== text properties ============================== */
+/* ++++++++++++++++++++TEXT-ALIGN                                                                                        */
+.text-align {
+  text-align: center;
+  /* default value :::> left */
+  /*                    right */
+}
+
+/* ++++++++++++++++++++VERTICAL-ALIGN                                                                                        */
+.img-skills-02 {
+  vertical-align: middle;
+  /* ----------------------------style-------------------------------- */
+  width: 75px;
+}
+
+.vertical-align {
+  /* ----------------------------style-------------------------------- */
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ++++++++++++++++++++TEXT-SADOW                                                                                        */
+.text-shadow {
+  text-shadow: 3px 3px 1px rgb(255, 0, 0);
+  /* syntax ::> text-shadow: H-shadow + V-shadow + Blur + color ;            */
+  /* ----------------------------style-------------------------------- */
+  font-size: 50px;
+  color: rgb(0, 202, 44);
+  text-align: center;
+}
+
+/* ++++++++++++++++++++TEXT-INDENT                                                                                        */
+.text-indent {
+  text-indent: 300px;
+  /* ----------------------------style-------------------------------- */
+  background-color: #c5eafc;
+  font-size: 50px;
+  color: rgb(0, 202, 44);
+}
+
+/* ++++++++++++++++++++COLOR                                                                                        */
+.color {
+  color: red;
+  /* default value :::> black */
+  /* ----------------------------style-------------------------------- */
+  text-align: center;
+}
+
+/* ++++++++++++++++++++LETTER-SPACING                                                                                        */
+.letter-spacing {
+  letter-spacing: 15px;
+  /* ----------------------------style-------------------------------- */
+  color: red;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++WORD-SPACING                                                                                        */
+.word-spacing {
+  word-spacing: 15px;
+  /* ----------------------------style-------------------------------- */
+  color: red;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++WHITE-SPACE                                                                                        */
+.white-space {
+  white-space: nowrap;
+  /* default value :::> normal         */
+  /* ----------------------------style-------------------------------- */
+  background-color: #00a2ff;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 900px;
+}
+
+/* ++++++++++++++++++++WORD-BREAK                                                                                        */
+
+.word-break_normal {
+  word-break: normal;
+  /* default value :::> normal         */
+  /* ----------------------------style-------------------------------- */
+  background-color: #00ff55;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 900px;
+}
+
+.word-break_break-all {
+  word-break: break-all;
+  /* default value :::> normal         */
+  /* ----------------------------style-------------------------------- */
+  background-color: #00ff55;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 900px;
+}
+
+/* ++++++++++++++++++++TEXT-OVERFLOW                                                                                        */
+.text-overflow {
+  text-overflow: ellipsis;
+  /* ----------------------------style-------------------------------- */
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 40px;
+  white-space: nowrap;
+  background-color: #ff970e;
+  width: 900px;
+}
+
+/* ++++++++++++++++++++LINE-HEIGHT                                                                                        */
+.line-height {
+  line-height: 4.3;
+  /* ----------------------------style-------------------------------- */
+  color: red;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++TEXT-DECORATION                                                                                        */
+.text-decoration {
+  text-decoration: underline;
+  /* default value :::> none         */
+  /*                    overline     */
+  /*                    line-through */
+  /* ----------------------------style-------------------------------- */
+  color: red;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++DIRECTION                                                                                        */
+.direction {
+  direction: rtl;
+  /* default value :::> ltr */
+  /* ----------------------------style-------------------------------- */
+  color: red;
+}
+
+/* ++++++++++++++++++++TEXT-TRANSFORM                                                                                        */
+.text-transform {
+  text-transform: uppercase;
+  /* default value :::> none          */
+  /*                    lowercase     */
+  /*                    capitalize    */
+  /* ----------------------------style-------------------------------- */
+  color: red;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++OVERFLOW                                                                                        */
+.overflow {
+  overflow: auto;
+  /*      scroll     */
+  /*      hidden     */
+  /* ----------------------------style-------------------------------- */
+  margin: 20px;
+  background-color: #ddaf97;
+  width: 100px;
+  height: 100px;
+}
+
+/*! ===================================== font =============================================== */
+/* ++++++++++++++++++++FONT-FAMILY                                                                                        */
+.font-family {
+  font-family: "Lucida Sans", "sans-serif";
+  /* ----------------------------style-------------------------------- */
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ++++++++++++++++++++FONT-SIZE                                                                                        */
+.font-size {
+  font-size: 50px;
+  /* default value :::> 16px          */
+  /* ----------------------------style-------------------------------- */
+  color: blue;
+  text-align: center;
+}
+
+/* ++++++++++++++++++++FONT-WEIGHT                                                                                        */
+.font-weight {
+  font-weight: bold;
+  /* default value :::> normal > 100~400          */
+  /* ----------------------------style-------------------------------- */
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ++++++++++++++++++++FONT-STYLE                                                                                        */
+.font-style {
+  font-style: italic;
+  /* default value :::> normal >               */
+  /* ----------------------------style-------------------------------- */
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*! ===================================== list-stile properties =============================================== */
+/* ++++++++++++++++++++LIST-STYLE-TYPE                                                                                        */
+.list .list-style-type {
+  list-style-type: none;
+  /* default value :::> disc                     */
+  /*                    circle                   */
+  /*                    decimal                  */
+  /*                    decimal-leading-zero     */
+  /*                    armenian                 */
+  /*                    georgian                 */
+  /*                    lower-alpha              */
+  /*                    lower-greek              */
+  /*                    ...........              */
+  /* ----------------------------style-------------------------------- */
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* ++++++++++++++++++++LIST-STYLE-POSITION                                                                                        */
+.list .list-style-position {
+  list-style-position: inside;
+  /* default value :::> outside                                                                                                   */
+  /* ----------------------------style-------------------------------- */
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*  .class { list-style: type  image  position; }                                                                                                                                                          */
+
+/*! ===================================== display =============================================== */
+/* 
+::::>------------- block
+
+- take full width if no width
+- add line break
+- respect padding + margin + width + height
+
+::::>------------- inline
+
+- do not respect width + height
+- respect padding and margin [ just left + right]
+- do not add line break
+- allow elements before and after it
+
+::::>------------- inline-block
+
+- allow elements before and after it
+- respect padding + margin + width + height
+
+*/
+/* ++++++++++++++++++++NONE                                                                                        */
+.display_none {
+  display: block;
+  /* ----------------------------style-------------------------------- */
+  background-color: darkmagenta;
+  color: white;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.display_none:hover {
+  display: none;
+  /* ----------------------------style-------------------------------- */
+  background-color: darkmagenta;
+  color: white;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* ++++++++++++++++++++BLOCK                                                                                        */
+.display_block {
+  display: block;
+  /* ----------------------------style-------------------------------- */
+  background-color: rgb(255, 72, 0);
+  margin: 20px;
+  padding: 10px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* ++++++++++++++++++++INLINE                                                                                        */
+.display_inline {
+  display: inline;
+  /* ----------------------------style-------------------------------- */
+  background-color: rgb(211, 0, 35);
+  margin: 15px;
+  /*  margin just::> left and right                                                                                                            */
+  padding: 8px;
+  width: 100px;
+  /*  width::> not work                                                                                                                            */
+  height: 100px;
+  /*  height::> not work                                                                                                                          */
+}
+
+/* ++++++++++++++++++++INLINE-BLOCK                                                                                        */
+.display_inline-block {
+  display: inline-block;
+  /* ----------------------------style-------------------------------- */
+  background-color: rgb(2, 252, 81);
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/*! ===================================== visibility =============================================== */
+.visibility p {
+  /* ----------------------------style-------------------------------- */
+  background-color: violet;
+  width: 190px;
+  height: 100px;
+}
+
+/* ++++++++++++++++++++VISIBILITY                                                                                                                */
+.visibility_2 {
+  visibility: visible;
+  /* default value :::> visible                                                                                                   */
+  /* ----------------------------style-------------------------------- */
+  margin: 20px 0 10px;
+}
+
+.visibility_2:hover {
+  visibility: hidden;
+}
+
+/*! ===================================== position =============================================== */
+/* ++++++++++++++++++++RELATIVE                                                                                                                */
+.relative {
+  position: relative;
+  /*  defoult value :::> static */
+  /* ------------------------------------------------------------------ */
+  left: 100px;
+  top: 46px;
+  /* ----------------------------style-------------------------------- */
+  width: 100px;
+  height: 100px;
+  background-color: sienna;
+  color: white;
+}
+
+.relative_test {
+  /* ----------------------------style-------------------------------- */
+  background-color: #00ffff;
+}
+
+/* ++++++++++++++++++++ABSOLUTE                                                                                                                */
+/* ----------------1----------------- */
+.absolute_1 {
+  position: absolute;
+  /* ----------------------------style-------------------------------- */
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.absolute_test_1 {
+  /* ----------------------------style-------------------------------- */
+  background-color: cyan;
+}
+
+/* ----------------2----------------- */
+.absolute_2 {
+  position: relative;
+  /* ----------------------------style-------------------------------- */
+  background-color: gray;
+  height: 500px;
+  color: white;
+}
+
+.child_absolute_2 {
+  /*hero image*/
+  position: absolute;
+  /* ------------------------------------------------------------------ */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* ----------------------------style-------------------------------- */
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+/* ----------------3----------------- */
+.ex_1 {
+  position: absolute;
+  /* ----------------------------style-------------------------------- */
+  background-color: deepskyblue;
+  width: 200px;
+  height: 200px;
+}
+
+.ex_2 {
+  position: absolute;
+  /* ----------------------------style-------------------------------- */
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+}
+
+/* ++++++++++++++++++++FIXED                                                                                                                */
+.fixed {
+  position: fixed;
+  /* ------------------------------------------------------------------ */
+  width: 100%;
+  /* width 100% be for :::> defoult_tagName> block */
+  /* ----------------------------style-------------------------------- */
+  background-color: chartreuse;
+  right: 20px;
+  top: 10px;
+  width: 50px;
+  height: 26px;
+}
+
+/*! ===================================== float =============================================== */
+/* ++++++++++++++++++++LEFT                                                                                                                */
+.float_left {
+  float: left;
+  /*  defoult value :::> none */
+  /* ----------------------------style-------------------------------- */
+  margin: 10px;
+  background-color: fuchsia;
+  width: 100px;
+  height: 100px;
+}
+
+/* ------------------------------START SOLVE THE PROBLEM------------------------------------ */
+
+.parent {
+  background-color: gray;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ------------------------------END SOLVE THE PROBLEM------------------------------------ */
+
+/* ++++++++++++++++++++RIGHT                                                                                                                */
+.float_right {
+  float: right;
+  /* ----------------------------style-------------------------------- */
+  margin: 10px;
+  background-color: rgb(0, 225, 255);
+  width: 100px;
+  height: 100px;
+}
+
+/*! ===================================== opacity =============================================== */
+.opacity {
+  opacity: 0.8;
+  /*  [   0<...,...>1   ]                                                                                           */
+  /* ----------------------------style-------------------------------- */
+  width: 300px;
+  border-radius: 13%;
+}
+
+.opasity1 {
+  /* ----------------------------style-------------------------------- */
+  height: 187px;
+  background-color: #f50eff;
+  position: absolute;
+  border-radius: 31%;
+}
+
+#opacity {
+  /* ----------------------------style-------------------------------- */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: aliceblue;
+  text-align: center;
+}
+
+/*! ===================================== pseudo classes[ :hover , :active ] =============================================== */
+/* ++++++++++++++++++++:HOVER                                                                                                                */
+.hvr:hover {
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  width: 58px;
+}
+
+/* ----------------------------style-------------------------------- */
+.hvr {
+  background-color: white;
+  width: 27px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+  border-radius: 50% 5% 5% 50%;
+  transition: 0.8s;
+  position: absolute;
+  right: 50%;
+  top: 6%;
+}
+
+/* ++++++++++++++++++++:ACTIVE                                                                                                                */
+.atv:active {
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  width: 58px;
+}
+
+/* ----------------------------style-------------------------------- */
+.atv {
+  background-color: white;
+  width: 27px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+  border-radius: 50% 5% 5% 50%;
+  transition: 0.8s;
+  position: absolute;
+  right: 50%;
+  top: 58%;
+}
+
+.pseudo_classes {
+  width: 100%;
+  height: 127px;
+  background-color: chartreuse;
+  position: relative;
+}
+
+/*! =========== pseudo element[ ::first-line , ::first-letter , ::after ::before ::selection ] ============ */
+/* ++++++++++++++++++++::FIRST-LINE                                                                                                                */
+.paragraph_one::first-line {
+  color: red;
+  font-size: 40px;
+}
+
+/* ++++++++++++++++++++::FIRST-LETTER                                                                                                                */
+.paragraph_two::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+/* ++++++++++++++++++++::AFTER                                                                                                                */
+
+.paragraph_three::after {
+  content: "::after";
+  color: red;
+  font-size: 40px;
+}
+
+/* ++++++++++++++++++++::BEFORE                                                                                                                */
+
+.paragraph_four::before {
+  content: "::before";
+  color: red;
+  font-size: 40px;
+}
+
+/* ----------------------------style-------------------------------- */
+.pseudo_element {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #9348f9;
+  letter-spacing: 3px;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+}
+
+/* ++++++++++++++++++++::selection                                                                                                                */
+.paragraph_five::selection {
+  background-color: black;
+  color: white;
+}
+
+/*! ===================================== navbar =============================================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+nav {
+  margin: 20px;
+}
+
+.navbar {
+  background: #333;
+  position: sticky;
+  top: 0;
+}
+
+.navbar h2 {
+  font-size: 35px;
+  color: white;
+  width: 20%;
+  float: left;
+}
+
+.navbar > ul {
+  list-style: none;
+  width: 80%;
+  float: left;
+}
+
+.navbar > ul li {
+  display: inline-block;
+}
+
+.navbar > ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: block;
+}
+
+.claer {
+  clear: both;
+}
+
+/*! ===================================== dropdown =============================================== */
+.navbar > ul li {
+  position: relative;
+  width: 100px;
+}
+
+.navbar > ul li ul {
+  display: none;
+  position: absolute;
+  background: #333;
+}
+
+.navbar > ul li a:hover + ul {
+  display: block;
+}
+
+/*! ===================================== css form =============================================== */
+/* ++++++++++++++++++++:FOCUS                                                                                                                */
+
+.width input[placeholder=":Focus_lime"]:focus {
+  background-color: lime;
+}
+
+.width input[placeholder=":Focus_gold"]:focus {
+  background-color: gold;
+}
+
+/* ----------------------------style-------------------------------- */
+.width input,
+select {
+  width: 100%;
+  display: block;
+}
+
+/*! ===================================== after & before =============================================== */
+/* ++++++++++++++++++++:BEFORE                                                                                                                */
+.before ul li::before {
+  content: "";
+  display: inline-block;
+  background-color: #f50eff;
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+}
+
+.before ul {
+  padding-left: 80px;
+  list-style: none;
+}
+
+/* ++++++++++++++++++++:AFTER                                                                                                                */
+.after ul li::after {
+  content: "";
+  display: inline-block;
+  background-color: #ff6e0e;
+  width: 5px;
+  height: 5px;
+  margin-left: 5px;
+}
+
+.after ul {
+  padding-left: 80px;
+  list-style: none;
+}
+
+/*! ===================================== specificity =============================================== */
+/*// |>  styleinline  |+   id   |+ [(  class  |~  psuedo class  |~  atte selector  )]  |+ element   <|*/
+/*//        1             1       [    1    +        1         +        1          ]        1         */
+
+.class#id p[title="attribute"] {
+  color: lightskyblue;
+  /* value::>           0 . 1 . 2 . 1 = 121                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.class#id p {
+  color: gold;
+  /* value::>           0 . 1 . 1 . 1 = 120                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.class#id p[title="attribute"] {
+  color: #333;
+  /* value::>           0 . 1 . 2 . 2 = 122                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.class#id p[title="attribute"]:hover {
+  color: ghostwhite;
+  /* value::>           0 . 1 . 3 . 2 = 132                        */
+  /* ----------------------------style-------------------------------- */
+  background-color: #333;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.8s;
+}
+
+.class#id {
+  color: chartreuse;
+  /* value::>           0 . 1 . 1 . 0 = 110                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#id {
+  color: #f50eff;
+  /* value::>           0 . 1 . 0 . 0 = 100                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.class {
+  color: red;
+  /* value::>           0 . 0 . 1 . 0 = 10                        */
+  /* ----------------------------style-------------------------------- */
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*! ===================================== inherit =============================================== */
+.inherit {
+  /* ----------------------------style-------------------------------- */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #eee;
+  font-size: 20px;
+  border: 2px solid blue;
+}
+
+.inherit h3 {
+  color: red;
+}
+
+.inherit-p {
+  border: 3px solid;
+  border-color: inherit;
+  /* ----------------------------style-------------------------------- */
+  margin-top: 30px;
+}
+
+/*! ===================================== cursor =============================================== */
+/* ----------------------------start-style-------------------------------- */
+.cursor {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.cursor p {
+  float: left;
+  text-align: center;
+  background-color: #d19b9b34;
+  border-radius: 50px;
+  /*---------calculator
+  ==> content width is: 100%
+  ==> we have 4 spaces (30px * 4 spaces) => 120px from content width
+  ==> 4 element the width is : (100% - 120px)/4
+  */
+  margin-left: 30px;
+  width: calc((100% - 120px) / 4);
+}
+
+/* ----------------------------end-style-------------------------------- */
+.cursor-pointer {
+  cursor: pointer;
+  color: rgb(10, 53, 192);
+}
+
+.cursor-grab {
+  cursor: grab;
+  color: rgb(165, 154, 1);
+}
+
+.cursor-copy {
+  cursor: copy;
+  color: rgb(238, 0, 186);
+}
+
+.cursor-cell {
+  cursor: cell;
+  color: rgb(12, 202, 59);
+}
+
+/*// -------------------------------------------------------------------------- */
+/*!                                 CODE CSS-3                                  */
+/*// -------------------------------------------------------------------------- */
+.css {
+  text-align: center;
+  font-size: 90px;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*! ============================== background-size ============================== */
+.perant {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.text-background {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 50px;
+  background-color: rgba(0, 0, 255, 0.466);
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px black;
+  margin-left: 5px;
+}
+
+/* ===================================== auto ::> default =============================================== */
+.background-size_auto {
+  background-size: auto;
+  /* ----------------------------style-------------------------------- */
+  height: 630px;
+  background-image: url(images/blog-3.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* ===================================== cover =============================================== */
+.background-size_cover {
+  background-size: cover;
+  /* ----------------------------style-------------------------------- */
+  height: 630px;
+  background-image: url(images/blog-3.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* ===================================== contain =============================================== */
+.background-size_contain {
+  background-size: contain;
+  /* ----------------------------style-------------------------------- */
+  height: 630px;
+  background-image: url(images/blog-3.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*! ===================================== css-table =============================================== */
+.css-table {
+  border-spacing: 0px;
+  /* ----------------------------style-------------------------------- */
+  width: 100%;
+}
+
+/* ----------------------------style-------------------------------- */
+.css-table td {
+  padding: 15px;
+  background-color: #dbdbdb;
+  border: 1px solid #24c7d7;
+}
+
+.css-table th {
+  padding: 10px;
+  background-color: #00ceef;
+  color: white;
+  border: 1px solid #00ceef;
+  border-top: none;
+}
+
+.css-table caption {
+  background-color: #ff970e;
+  padding: 10px;
+  color: white;
+}
+
+/*! ===================================== box-saizing =============================================== */
+
+.box-sizing-1 {
+  box-sizing: border-box;
+  /* ----------------------------style-------------------------------- */
+  width: 50%;
+  background-color: #ff7f00;
+  float: right;
+  padding: 10px;
+}
+
+.box-sizing-2 {
+  box-sizing: border-box;
+  /* ----------------------------style-------------------------------- */
+  width: 50%;
+  background-color: #9348f9;
+  float: right;
+  padding: 10px;
+}
+
+/* ----------------------------style-------------------------------- */
+.box-sizing-parent {
+  background-color: rgb(44, 78, 78);
+  color: white;
+  width: 97%;
+  padding: 30px;
+}
+
+/*! ===================================== transition =============================================== */
+.transition {
+  transition-duration: 3s;
+  transition-property: width;
+  transition-delay: 0.5s;
+  /* ----------------------------style-------------------------------- */
+  background-color: #ff7f00;
+  color: white;
+  text-align: center;
+  width: 100px;
+  text-align: center;
+  height: 100px;
+  position: relative;
+}
+
+.transition:hover {
+  width: 100%;
+  height: 110px;
+}
+
+/* ----------------------------style-------------------------------- */
+.transition-p {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  background-color: #9348f9;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+}
+
+/*! ===================================== Variables-Root =============================================== */
+:root {
+  --color1: #182635;
+  --color2: white;
+  --fontSize: 40px;
+  --float: left;
+  --width: 20%;
+  --width-2: 100%;
+  --height: 50px;
+  --margin-left: 5%;
+  --text-align: center;
+}
+
+.variables {
+  width: var(--width-2);
+  margin-bottom: 40px;
+}
+
+.variables .one {
+  background-color: var(--color1);
+  width: var(--width);
+  height: var(--height);
+  text-align: var(--text-align);
+  margin-left: var(--margin-left);
+  font-size: var(--fontSize);
+  color: var(--color2);
+  float: var(--float);
+}
+
+.variables .two {
+  background-color: var(--color1);
+  width: var(--width);
+  height: var(--height);
+  text-align: var(--text-align);
+  margin-left: var(--margin-left);
+  color: var(--color2);
+  font-size: var(--fontSize);
+  float: var(--float);
+}
+
+.variables .three {
+  background-color: var(--color1);
+  width: var(--width);
+  height: var(--height);
+  font-size: var(--fontSize);
+  text-align: var(--text-align);
+  margin-left: var(--margin-left);
+  color: var(--color2);
+  float: var(--float);
+}
+
+.variables .four {
+  background-color: var(--color1);
+  width: var(--width);
+  height: var(--height);
+  text-align: var(--text-align);
+  margin-left: var(--margin-left);
+  font-size: var(--fontSize);
+  color: var(--color2);
+  float: var(--float);
+}
+
+/*! ===================================== Flexibale Box =============================================== */
+/* ----------------------------strat-heading-------------------------------- */
+.heading {
+  text-align: center;
+  background-color: #00a2ff;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.heading-child .Display-one {
+  text-align: center;
+  background-color: #b200ff;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.heading-child-1 {
+  position: relative;
+  color: white;
+  padding: 10px;
+  margin-bottom: 60px;
+  border-radius: 50px;
+}
+
+.heading-one {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 20px;
+  background-color: #1f5e6b;
+  padding: 5px 10px 5px 10px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px rgb(255 4 4 / 16%);
+  font-family: "Source Code Pro", monospace;
+  width: max-content;
+}
+
+/* ----------------------------end-heading-------------------------------- */
+
+/* ++++++++++++++++++++::DISPLAY: INLINE-FLEX;                                                                                                                */
+
+.parent-flex-1 {
+  display: inline-flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------Start-style-------------------------------- */
+.parent-flex-1 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-1 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-1 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-1 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-1 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::DISPLAY: FLEX;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-2 {
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-2 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-2 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-2 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-2 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-2 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-DIRECTION: ROW-REVERSE;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-3 {
+  flex-direction: row-reverse;
+  /* default value :::> row         */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-3 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-3 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-3 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-3 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-3 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-DIRECTION: COLUMN;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-4 {
+  flex-direction: column;
+  /* default value :::> row         */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-4 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-4 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-4 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-4 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-4 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-DIRECTION: COLUMN-REVERSE;     k                                                                                                           */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-5 {
+  flex-direction: column-reverse;
+  /* default value :::> row         */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-5 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-5 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-5 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-5 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-5 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-WRAP: WRAP;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-6 {
+  flex-wrap: wrap;
+  /* default value :::> nowrap         */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-6 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-6 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-6 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-6 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-6 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-WRAP: WRAP-REVERSE;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-7 {
+  flex-wrap: wrap-reverse;
+  /* default value :::> nowrap         */
+  flex-flow: row wrap-reverse;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-7 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-7 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-7 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-7 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-7 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: FLEX-END; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-8 {
+  justify-content: flex-end;
+  /* respect page direction */
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-8 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-8 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-8 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-8 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-8 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: LEFT;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-9 {
+  justify-content: left;
+  /* don't respect page direction */
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-9 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-9 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-9 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-9 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-9 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: CENTER; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-10 {
+  justify-content: center;
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-10 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-10 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-10 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-10 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-10 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: RIGHT;                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-11 {
+  justify-content: right;
+  /* don't respect page direction */
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-11 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-11 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-11 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-11 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-11 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-BETWEEN; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-12 {
+  justify-content: space-between;
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-12 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-12 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-12 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-12 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-12 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-AROUND; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-13 {
+  justify-content: space-around;
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-13 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-13 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-13 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-13 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-13 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-EVENLY; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-14 {
+  justify-content: space-evenly;
+  /* default value :::> flex-start         */
+  flex-flow: row;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-14 p {
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-14 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-14 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-14 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-14 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: FLEX-END; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-15 {
+  justify-content: flex-end;
+  /* don't respect page direction */
+  /* default value :::> flex-start         */
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-15 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-15 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-15 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-15 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-15 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: CENTER; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-16 {
+  justify-content: center;
+  /* default value :::> flex-start         */
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-16 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-16 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-16 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-16 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-16 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-BETWEEN; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-17 {
+  justify-content: space-between;
+  /* default value :::> flex-start         */
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-17 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-17 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-17 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-17 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-17 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-AROUND; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-18 {
+  justify-content: space-around;
+  /* default value :::> flex-start         */
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-18 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-18 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-18 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-18 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-18 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::JUCTIFY-CONTENT: SPACE-EVENLY; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-19 {
+  justify-content: space-evenly;
+  /* default value :::> flex-start         */
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-19 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Display-Flex-itemOne-19 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-19 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-19 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-19 {
+  background-color: #00a2ff;
+}
+
+/* -----------FlexBox Explanation-------------- */
+.explan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.explan .explan-1 {
+  background-color: #182635;
+  width: 400px;
+  height: auto;
+  color: white;
+  border: 5px dashed #828283;
+  padding-bottom: 20px;
+}
+
+.explan-1 p {
+  margin: 20px 0 0 40px;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+}
+
+.child-p {
+  padding-left: 40px;
+}
+
+p.child-p {
+  color: #9649e3;
+}
+
+/* ----------FlexBox Explanation--------------- */
+
+/* ++++++++++++++++++++::ALING-ITEMS: STRETCH; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-20 {
+  align-items: stretch;
+  /* default value :::> stretch         */
+  justify-content: space-evenly;
+  flex-flow: column;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-20 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-20 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-20 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-20 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-20 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-ITEMS: FLEX-START; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-21 {
+  align-items: flex-start;
+  /* default value :::> stretch         */
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-21 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-21 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-21 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-21 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-21 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-ITEMS: FLEX-END; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-22 {
+  align-items: flex-end;
+  /* default value :::> stretch         */
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-22 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-22 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-22 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-22 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-22 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-ITEMS: CENTER; WITHE COLUMN                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-23 {
+  align-items: center;
+  /* default value :::> stretch         */
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-23 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-23 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-23 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-23 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-23 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-CONTENT: FLEX-START; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-24 {
+  align-content: flex-start;
+  /* default value :::> stretch         */
+  flex-flow: row wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-24 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-24 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-24 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-24 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-24 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-CONTENT: CENTER; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-25 {
+  align-content: center;
+  /* default value :::> stretch         */
+  flex-flow: row wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-25 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-25 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-25 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-25 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-25 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-CONTENT: FLEX-END; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-26 {
+  align-content: flex-end;
+  /* default value :::> stretch         */
+  flex-flow: row wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-26 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-26 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-26 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-26 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-26 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-CONTENT: SPACE-BETWEEN; WITHE ROW                                                                                                                */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-27 {
+  align-content: space-between;
+  /* default value :::> stretch         */
+  flex-flow: row wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-27 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-27 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-27 {
+  background-color: black;
+}
+
+.Display-Flex-itemThree-27 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-27 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ALING-SELF: FLEX-START;                                                                                                                 */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-28 {
+  justify-content: space-between;
+  /* default value :::> stretch         */
+  flex-flow: row wrap;
+  /* Shorthand for [flex-wrap] + [flex-direction] */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  height: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-28 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-28 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-28 {
+  align-self: flex-start;
+  background-color: black;
+}
+
+.Display-Flex-itemThree-28 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-28 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::ORDER: 1 ;                                                                                                                 */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-29 {
+  justify-content: space-between;
+  /* default value :::> stretch         */
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-29 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-29 {
+  order: 1;
+  /* default value :::> 0         */
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-29 {
+  order: -1;
+  /* default value :::> 0         */
+  background-color: black;
+}
+
+.Display-Flex-itemThree-29 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-29 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-GROW: 1 ;                                                                                                                 */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-30 {
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-30 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-30 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-30 {
+  flex-grow: 1;
+  /* default value :::> 0         */
+  background-color: black;
+}
+
+.Display-Flex-itemThree-30 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-30 {
+  background-color: #00a2ff;
+}
+
+/* ++++++++++++++++++++::FLEX-SHRINK: 2 ;                                                                                                                 */
+
+/* ----------------------------End-style-------------------------------- */
+.parent-flex-31 {
+  display: flex;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-31 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-31 {
+  background-color: #ff970e;
+  width: 500px;
+}
+
+.Display-Flex-itemTwo-31 {
+  flex-shrink: 2;
+  /* default value :::> 1         */
+  background-color: black;
+  width: 500px;
+}
+
+.Display-Flex-itemThree-31 {
+  background-color: rgb(238, 0, 186);
+  width: 500px;
+}
+
+.Display-Flex-itemFour-31 {
+  flex-shrink: 0;
+  /* no shrink :::> 0         */
+
+  background-color: #00a2ff;
+  width: 500px;
+}
+
+/* ++++++++++++++++++++::FLEX-BAISIS: 200PX ;                                                                                                                 */
+
+.parent-flex-32 {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.parent-flex-32 p {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Display-Flex-itemOne-32 {
+  background-color: #ff970e;
+}
+
+.Display-Flex-itemTwo-32 {
+  flex-basis: 200px;
+  /* control  :::> [width with row] and [height with column]       */
+  background-color: black;
+}
+
+.Display-Flex-itemThree-32 {
+  background-color: rgb(238, 0, 186);
+}
+
+.Display-Flex-itemFour-32 {
+  background-color: #00a2ff;
+}
+
+/*! ===================================== Filters =============================================== */
+/* ++++++++++++++++++++::FILTER: GRAYSCALE(100%);                                                                                                                 */
+.filters {
+  /* ----------------------------style-------------------------------- */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #eee;
+}
+
+.filters img {
+  filter: grayscale(100%);
+  /* ----------------------------style-------------------------------- */
+  width: 40%;
+  transition: 0.5s;
+  border: 5px dashed rgb(130, 130, 131);
+}
+
+.filters img:hover {
+  filter: grayscale(0%);
+  /* ----------------------------style-------------------------------- */
+  border-radius: 18px;
+}
+
+/*! ===================================== Gradient =============================================== */
+/* ++++++++++++++++++++::BACKGROUND-IMAGE: LINEAR-GRADIENT(......);                                                                                                                 */
+.gradient .linear-gradient::after {
+  background-image: linear-gradient(
+    to right,
+    red 30%,
+    blue 30%,
+    blue 50%,
+    green 50%,
+    yellow 90%,
+    black 90%
+  );
+
+  /* ----------------------------style-------------------------------- */
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  height: 30px;
+  width: 100%;
+  background-color: red;
+}
+
+.gradient .linear-gradient {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin-top: 60px;
+  background-color: rgb(7, 68, 103);
+  border-radius: 1px;
+}
+
+.gradient {
+  width: 100%;
+  height: 400px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+/*! ===================================== Caret =============================================== */
+
+/* ++++++++++++++++++++::caret-color: red;                                                                                                                 */
+.caret {
+  caret-color: red;
+  /* ----------------------------style-------------------------------- */
+  padding: 20px;
+  background-color: #eee;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*! ===================================== Pointer-events =============================================== */
+/* ++++++++++++++++++++::Pointer-events                                                                                                                 */
+.pointer a {
+  pointer-events: none;
+  /* ----------------------------style-------------------------------- */
+  font-size: 50px;
+  color: #1e7de17a;
+  background-color: #b3c7fd;
+  padding: 10px;
+  border-radius: 2px;
+  border: 3px dashed rgb(0 153 165);
+}
+
+/* ----------------------------style-------------------------------- */
+.pointer {
+  background-color: #eee;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*! ===================================== Grid =============================================== */
+/* ++++++++++++++++++++::=> grid-template-columns                                                                                                                */
+/* ++++++++++++++++++++::=> repeat and px                                                                                                                */
+.parent-grid-1 {
+  display: grid;
+  grid-template-columns: 200px repeat(2, 400px);
+  /* ----------------------------style-------------------------------- */
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-1 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ----------------------------start-style-------------------------------- */
+
+.item-grid-1 {
+  background-color: red;
+}
+
+.item-grid-2 {
+  background-color: blue;
+}
+
+.item-grid-3 {
+  background-color: #ff00d7;
+}
+
+.item-grid-4 {
+  background-color: green;
+}
+
+/* ----------------------------end-style-------------------------------- */
+
+/* ++++++++++++++++++++::=> %                                                                                                                */
+.parent-grid-2 {
+  grid-template-columns: 33% repeat(2, 33%);
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-2 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> auto                                                                                                                */
+.parent-grid-3 {
+  grid-template-columns: auto repeat(3, auto);
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-3 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> 1fr                                                                                                                */
+.parent-grid-4 {
+  grid-template-columns: 1fr repeat(3, 1fr);
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-4 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> {auto} and {1fr}                                                                                                                */
+.parent-grid-5 {
+  grid-template-columns: auto repeat(3, 1fr);
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-5 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> auto-fill                                                                                                                */
+.parent-grid-6 {
+  grid-template-columns: repeat(auto-fill, 400px);
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-6 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::minmax                                                                                                                */
+.parent-grid-7 {
+  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-7 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> grid-template-rows                                                                                                                */
+/* ++++++++++++++++++++::=> ( auto-fill ) and ( px ) and ( auto )                                                                                                               */
+.parent-grid-8 {
+  grid-template-rows: repeat(auto-fill, minmax(400px, auto));
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-8 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> gap                                                                                                                */
+/* ++++++++++++++++++++::=> column-gap                                                                                                               */
+.parent-grid-9 {
+  column-gap: 30px;
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-9 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> row-gap                                                                                                               */
+.parent-grid-10 {
+  row-gap: 30px;
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-10 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> gap                                                                                                               */
+.parent-grid-11 {
+  gap: 30px 30px;
+  /* gap: row , column ;           */
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-11 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> justify-content                                                                                                                */
+.parent-grid-12 {
+  justify-content: space-between;
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-12 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* ++++++++++++++++++++::=> align-content                                                                                                                */
+.parent-grid-13 {
+  align-content: center;
+  height: 400px;
+  /* ----------------------------style-------------------------------- */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  background-color: #eee;
+  padding: 30px;
+}
+
+/* ----------------------------style-------------------------------- */
+.parent-grid-13 div {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/*! <!-- ====================================== Grid Full layaot>> grid-template-areas ======================================  --> */
+.page-1 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "logo logo nav nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont . side side side"
+    "foot foot foot foot foot foot foot foot foot foot ";
+  /* ----------------------------style-------------------------------- */
+  gap: 20px;
+  background-color: #ecf2f8;
+  height: 70vh;
+  color: white;
+  padding: 50px;
+  box-shadow: 2px 2px 22px -7px #0000001f;
+}
+
+.logo-layaot {
+  grid-area: logo;
+  /* ----------------------------style-------------------------------- */
+  background-color: #48556a;
+}
+
+.nve-layaot {
+  grid-area: nav;
+  /* ----------------------------style-------------------------------- */
+  background-color: #19212e;
+  margin: 0;
+}
+
+.content-layaot {
+  grid-area: cont;
+  /* ----------------------------style-------------------------------- */
+  background-color: #7541c8ed;
+}
+
+.aside-layaot {
+  grid-area: side;
+  /* ----------------------------style-------------------------------- */
+  background-color: #48556a;
+}
+
+.footer-layaot {
+  grid-area: foot;
+  /* ----------------------------style-------------------------------- */
+  background-color: #ff00a3;
+}
+
+/* ----------------------------style-------------------------------- */
+.nve-layaot ul {
+  list-style: none;
+}
+
+.nve-layaot ul li {
+  display: inline-block;
+}
+
+/*! <!-- ====================================== Grid Full layaot>> grid-column + grid-row ======================================  --> */
+.page-1__plus {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px;
+  /* ----------------------------style-------------------------------- */
+  gap: 20px;
+  background-color: #ecf2f8;
+  height: 70vh;
+  color: white;
+  padding: 50px;
+  box-shadow: 2px 2px 22px -7px #0000001f;
+}
+
+.logo-layaot__plus {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  /* ----------------------------style-------------------------------- */
+  background-color: #48556a;
+}
+
+.nve-layaot__plus {
+  grid-column: 3/11;
+  grid-row: 1/2;
+  /* ----------------------------style-------------------------------- */
+  background-color: #19212e;
+  margin: 0;
+}
+
+.content-layaot__plus {
+  grid-column: 1/7;
+  grid-row: 2/3;
+  /* ----------------------------style-------------------------------- */
+  background-color: #7541c8ed;
+}
+
+.aside-layaot__plus {
+  grid-column: 8/11;
+  grid-row: 2/3;
+  /* ----------------------------style-------------------------------- */
+  background-color: #48556a;
+}
+
+.footer-layaot__plus {
+  grid-column: 1/11;
+  grid-row: 3/4;
+
+  /* ----------------------------style-------------------------------- */
+  background-color: #ff00a3;
+}
+
+/* ----------------------------style-------------------------------- */
+.nve-layaot__plus ul {
+  list-style: none;
+}
+
+.nve-layaot__plus ul li {
+  display: inline-block;
+}
+
+/*! <!-- ====================================== 2D transform ======================================  --> */
+/* ----------------------------start-style-------------------------------- */
+.shap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.shap .transform__2D {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  font-weight: 900;
+  font-size: 18px;
+  background-color: rgb(255 0 0 / 48%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: white;
+  transition: 0.6s;
+}
+
+/* ----------------------------Start Y-Axis -------------------------------- */
+.shap .Y-Axis {
+  content: "";
+  border-left: 2px solid #817474;
+  height: 200px;
+  position: absolute;
+  left: -20px;
+  z-index: 1;
+}
+
+.shap .Y-Axis .text__Y {
+  position: absolute;
+  left: -26px;
+  color: white;
+  top: calc(50% - 21px);
+  transform: rotate(90deg);
+  background-color: #817474;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* ----------------------------End Y-Axis -------------------------------- */
+
+/* ----------------------------Start X-Axis -------------------------------- */
+.shap .X-Axis {
+  content: "";
+  border-bottom: 2px solid #817474;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  bottom: -20px;
+}
+
+.shap .X-Axis .text__X {
+  position: absolute;
+  left: 71px;
+  bottom: -16px;
+  color: white;
+  background-color: #817474;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* ----------------------------End X-Axis -------------------------------- */
+
+/* ----------------------------Start Z-Axis -------------------------------- */
+
+.shap .Z-Axis {
+  content: "";
+  border-bottom: 2px solid #817474;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  left: -187px;
+  bottom: -90px;
+  transform: rotate(135deg);
+}
+
+.shap .Z-Axis .text__Z {
+  position: absolute;
+  left: 71px;
+  bottom: -16px;
+  color: white;
+  background-color: #817474;
+  padding: 5px;
+  transform: rotate(180deg);
+  border-radius: 10px;
+}
+
+/* ----------------------------End Z-Axis -------------------------------- */
+
+.origin::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #1000ff;
+  transform: translate(-50%, -50%);
+}
+
+/* ----------------------------end-style-------------------------------- */
+
+/* ++++++++++++++++++++::>> scaleX(1.5)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__1 {
+  transform: scaleX(1.5);
+}
+
+/* ++++++++++++++++++++::>> scaleY(1.5)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__2 {
+  transform: scaleY(1.5);
+}
+
+/* ++++++++++++++++++++::>> scale(1.5)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__3 {
+  transform: scale(1.5);
+}
+
+/* ++++++++++++++++++++::>> scale(0, 0)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__4 {
+  transform: scale(0, 0);
+}
+
+/* ++++++++++++++++++++::>> rotate(90deg)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__5 {
+  transform: rotate(90deg);
+}
+
+/* ++++++++++++++++++++::>> translate(100px, 0)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__6 {
+  transform: translate(100px, 0);
+}
+
+/* ++++++++++++++++++++::>> translate(0, -100px)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__7 {
+  transform: translate(0, -100px);
+}
+
+/* ++++++++++++++++++++::>> skewX(25deg)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__8 {
+  transform: skewX(25deg);
+}
+
+/* ++++++++++++++++++++::>> skewY(25deg)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__9 {
+  transform: skewY(25deg);
+}
+
+/* ++++++++++++++++++++::>> skew(-90deg, 0)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__10 {
+  transform: skew(-90deg, 0);
+}
+
+/* ++++++++++++++++++++::>> matrix(1.5, 0.3676, 1, 1.2, 64, 32)                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__11 {
+  transform: matrix(1.5, 0.3676, 1, 1.2, 64, 32);
+  /* syntax ::> Transform: matrix(  scaleX(), skewY, skewX(), scaleY(), translateX(), translateY()  ) ;                                                       */
+}
+
+/* ++++++++++++++++++++::>> transform-origin:right bottom ;                                                                                                                */
+
+.shap .transform__2D:hover.transform__2D.test__12 {
+  transform-origin: right bottom;
+}
+
+.shap .transform__2D:active.transform__2D.test__12 {
+  transform: rotate(360deg);
+}
+
+/* ++++++++++++++++++++::>> parent take perspective: 300px; for use translate3d(0, 0, 180px)                                                                                                                */
+
+.shap:hover.shap {
+  perspective: 300px;
+  /* thes is Z-Axis value */
+}
+
+.shap .transform__2D:active.transform__2D.test__13 {
+  transform: translate3d(0, 0, 180px);
+}
+
+/* ++++++++++++++++++++::>> parent take  perspective-origin: bottom right;                                                                                                                */
+
+.shap.hover__1:hover.shap {
+  perspective: 300px;
+  perspective-origin: bottom right;
+}
+
+.shap .transform__2D:active.transform__2D.test__14 {
+  transform: translate3d(0, 0, 180px);
+}
+
+/*! <!-- ====================================== 3D backface ======================================  --> */
+.backface {
+  margin: 100px auto;
+  perspective: 400px;
+}
+
+.backface .box__backface {
+  width: 180px;
+  height: 180px;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  background-color: rgb(255 0 0 / 48%);
+
+  transform-origin: right center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.backface .face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  backface-visibility: hidden;
+}
+
+.backface .face__front {
+  background-color: green;
+}
+
+.backface .face__back {
+  background-color: rgb(0, 119, 255);
+  transform: rotateY(180deg);
+}
+
+.box__backface:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+/*! <!-- ====================================== Animatins ======================================  --> */
+/* ----------------------------start style-------------------------------- */
+.animation,
+.up__and-down {
+  position: relative;
+}
+
+.animation,
+.up__and-down {
+  content: "";
+  background-color: #cecccc;
+  width: 500px;
+  height: 300px;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.animatin__keyframes {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* ----------------------------end style-------------------------------- */
+
+/* ++++++++++++++++++++::>> keyframes + animation                                                                                                               */
+.animation-name {
+  animation-name: square;
+  animation-duration: 10s;
+  animation-timing-function: linear(
+    0 0%,
+    0 2.27%,
+    0.02 4.53%,
+    0.04 6.8%,
+    0.06 9.07%,
+    0.1 11.33%,
+    0.14 13.6%,
+    0.25 18.15%,
+    0.39 22.7%,
+    0.56 27.25%,
+    0.77 31.8%,
+    1 36.35%,
+    0.89 40.9%,
+    0.85 43.18%,
+    0.81 45.45%,
+    0.79 47.72%,
+    0.77 50%,
+    0.75 52.27%,
+    0.75 54.55%,
+    0.75 56.82%,
+    0.77 59.1%,
+    0.79 61.38%,
+    0.81 63.65%,
+    0.85 65.93%,
+    0.89 68.2%,
+    1 72.7%,
+    0.97 74.98%,
+    0.95 77.25%,
+    0.94 79.53%,
+    0.94 81.8%,
+    0.94 84.08%,
+    0.95 86.35%,
+    0.97 88.63%,
+    1 90.9%,
+    0.99 93.18%,
+    0.98 95.45%,
+    0.99 97.73%,
+    1 100%
+  );
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  /*// ---- animation: square 5s linear 2s infinite normal forwards running; ---- */
+}
+
+.animation-name:hover {
+  animation-play-state: paused;
+  /* ----------------------------style-------------------------------- */
+  cursor: pointer;
+}
+
+@keyframes square {
+  0% {
+    background-color: red;
+    translate: 0 0;
+    rotate: 0deg;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 5px rgb(0, 255, 42);
+  }
+
+  25% {
+    background-color: rgb(0, 255, 42);
+    translate: 0 250px;
+    rotate: 90deg;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 5px rgb(38, 0, 255);
+  }
+
+  50% {
+    background-color: rgb(38, 0, 255);
+    translate: 450px 250px;
+    rotate: 180deg;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 5px rgb(255, 0, 212);
+  }
+
+  75% {
+    background-color: rgb(255, 0, 212);
+    translate: 450px 0px;
+    rotate: 360deg;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 5px rgb(251, 255, 0);
+  }
+
+  100% {
+    background-color: rgb(251, 255, 0);
+    translate: 0 0;
+    rotate: 0deg;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 5px red;
+  }
+}
+
+/*! <!-- ====================================== Animatins up-and-down ======================================  --> */
+.up__and-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color1);
+}
+
+.up__and-down span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: var(--color2);
+  animation-name: up__down;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.up__and-down span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.up__and-down span:last-child {
+  animation-delay: 0.6s;
+}
+
+@keyframes up__down {
+  to {
+    opacity: 0.2;
+    translate: 0 -20px;
+  }
+}
